@@ -1,0 +1,14 @@
+.header{
+    max-width:500px;
+    text-align: center;
+    margin:50px auto;
+}
+.top {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin:0;
+    display: block;
+}
+span{
+    font-weight: 600;
+}

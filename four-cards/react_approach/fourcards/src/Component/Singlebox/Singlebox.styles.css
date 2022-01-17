@@ -1,0 +1,43 @@
+.box{
+    width:350px;
+    box-shadow:0 14px 28px rgba(0,0,0,0.03), 0 10px 10px rgba(0,0,0,0.1);
+    margin:15px;
+    padding:30px;
+    height:250px;
+    border-radius: 5px;
+   overflow:hidden;
+}
+.box-red{
+    border-top: 5px solid hsl(0, 78%, 62%);
+
+}
+.box-pink{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.box-yellow{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.box-purple{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.box h2{
+    margin:0;
+}
+.box img{
+    float:right;
+}
+.box img::after{
+    clear: both;
+    content:'';
+    display:table;
+}
+.box-down{
+    transform: translateY(50%);
+}
+
+@media  screen and (max-width:1155px) {
+
+    .box-down{
+        transform: translateY(0);
+    }
+}
